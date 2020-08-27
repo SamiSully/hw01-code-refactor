@@ -1,14 +1,17 @@
+/* This full screens the site so there is no spacing between it and the edges of your browser*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* This is the basic structure of the site. This sets the background color and the base text size */
 body {
   background-color: #d9dcd6;
   font-size: 16px;
 }
 
+/* This is for thr header of the site. This affects the top most section of the site. */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -17,6 +20,7 @@ header {
   color: #ffffff;
 }
 
+/* This is the navigation that holds the location to the other links on the site */
 Nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -25,43 +29,52 @@ Nav {
   font-size: 20px;
 }
 
+/* The navigation links as bullet points without the points */
 Nav ul {
   list-style-type: none;
 }
 
+/* The navigation links set to inline horizontally */
 Nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* The main header. This is the "Horiseon" logo to the site */
 h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* This changes the "seo" in Horiseon to a different color in order to help it pop! */
 h1 .seo {
   color: #d9dcd6;
 }
 
+/* This is the Headers/Titles for the main text sections */
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* This is for the header/titles on the right main column(The aside column)*/
 h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Header/large text for the footer */
 h4 {
   font-size: 20px;
 }
 
+/* Keeps the color and text decoration static for links */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Positioning for the main image */
 figure {
     background-size: cover;
   background-position: center;
@@ -69,40 +82,49 @@ figure {
   top: 0px;
 }
 
-figure img {
-  height: auto;
+/* Attributes for the main image */
+.hero {
   width: 100%;
-  float: center;
+  height: 800px;
   margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
+/* Allows images to align to the left */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Allows images to align to the right */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* The main body of the website is contained within here */
 main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* This is the boxes that are seperated in the right aside */
 section {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* Sets the attributes for the images within the sections(the boxes in the aside) */
 section img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* This is for the seperation of the boxes in the main section of the code */
 article {
   margin-bottom: 20px;
   padding: 50px;
@@ -112,10 +134,12 @@ article {
   color: #ffffff;
 }
 
+/* This affects the images in the article */
 article img {
   max-height: 200px;
 }
 
+/* This is the attributes for the aside, the right column on main text */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -127,6 +151,7 @@ aside {
   background-color: #2589bd;
 }
 
+/* This is the footer for the site. This effects the text and formatting of the msot bottom section */
 footer {
   padding: 30px;
   clear: both;
